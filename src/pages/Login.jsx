@@ -58,6 +58,7 @@ export default function Login() {
 						name="email"
 						onChange={handleChange}
 						type="email"
+						autoComplete="email"
 						placeholder="E-mail adresi"
 						value={loginFormData.email}
 					/>
